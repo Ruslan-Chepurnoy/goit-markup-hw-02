@@ -1,84 +1,84 @@
-
-      #21212
-      #757575;
-     #ffffff;
-     #2196f3;
-}.body {
-  background-color: #ffffff;
-  color: #212121;
+:root {
+  --primary-color: #212121;
+  --first-color: #ffffff;
+  --second-color: #757575;
+}
+.body {
+  background-color: var(--first-color);
+  color: var(--primary-text-color);
 }
 .header-logo {
-    color: #212121;
+  color: var(--primary-color);
 }
 .list {
   list-style: none;
 }
-
 /* site-nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
 /* auth-nav */
 .auth-nav .link {
-color: #757575;
+  color: var(--second-color);
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-    color: #2196F3;
+  color: #2196f3;
 }
 /* hero */
 .hero {
-   background-color: #2F303A; 
+  background-color: #2f303a;
 }
 .hero-titel {
-    color: #ffffff;
+  color: var(--first-color);
 }
 /* features */
 .features {
-    background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 .features-titel {
-    color: #212121;
+  color: var(--primary-color);
 }
 .features-text {
-    color:#757575 ;
+  color: var(--second-color);
 }
 /* .works */
 .works {
-    background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 .works-titel {
-    color: #212121;
+  color: var(--primary-color);
 }
 /* team */
 .team {
-    background-color: #F5F4FA ;
+  background-color: #f5f4fa;
 }
 .team-titel {
-    color:#212121 ;
+  color: var(--primary-color);
+}
+.team-bord {
+  background-color: var(--first-color);
 }
 .team-name {
-    color: #212121 ;
-    background-color: #ffffff;
+  color: var(--primary-color);
 }
 .team-text {
-    color: #757575;
-    background-color: #ffffff;
+  color: var(--second-color);
 }
-    /* footer */
-  .footer  {
-      background-color: #2F303A;
-  }
-  .footer-logo {
-      color: #ffffff;
-  }
-  .footer-addres {
-      color: #ffffff;
-  }
-  .footer-link {
-      color: rgba(255, 255, 255, 0.6);
-  }
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: var(--first-color);
+}
+.footer-addres {
+  color: var(--first-color);
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
