@@ -10,7 +10,7 @@
   --header-logo-color: #000000;
   --footer-logo-color: #ffffff;
 }
-.body {
+body {
   background-color: var(--first-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
