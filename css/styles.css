@@ -29,7 +29,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .header-logo {
   color: var(--header-logo-color);
@@ -104,7 +103,6 @@ body {
   font-style: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
 }
 .features-text {
   color: var(--second-color);
@@ -112,7 +110,6 @@ body {
   font-style: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 /* .works */
 .works {
@@ -124,7 +121,6 @@ body {
   font-style: 700;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 /* team */
 .team {
@@ -139,7 +135,6 @@ body {
   font-style: 500;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .team-text {
   color: var(--second-color);
@@ -147,7 +142,6 @@ body {
   font-style: 400;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 /* footer */
 .footer {
@@ -161,7 +155,6 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 .footer-address {
   color: var(--first-color);
@@ -188,7 +181,6 @@ body {
   font-style: 500;
   font-size: 16px;
   line-height: 1.63;
-  letter-spacing: 0.03em;
 }
 .button:hover,
 .button:focus {
@@ -204,7 +196,6 @@ body {
   font-style: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.03em;
 }
 .example-text {
   color: var(--second-color);
@@ -212,5 +203,4 @@ body {
   font-style: 400;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
