@@ -161,9 +161,11 @@ body {
 }
 .address {
   font-family: Roboto;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
 }
 .footer-address {
   color: var(--first-color);
